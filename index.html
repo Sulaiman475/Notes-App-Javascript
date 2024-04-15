@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes App</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a class="navbar-brand">Notes</a>
+            <form class="navbar-form" role="search">
+                <input class="" type="search" placeholder="Search" id="search" aria-label="Search">
+                <!-- <button class="btn btn-primary" type="submit">Search</button> -->
+            </form>
+        </div>
+    </nav>
+
+    <!-- <div class="filters">
+        <h2>Filters</h2>
+        <div class="">
+            <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+              <option selected>Open this select menu</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+        </div>
+        <div class="">
+            <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+              <option selected>Open this select menu</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+        </div>
+    </div> -->
+
+    <!-- <div class="container">  
+        <div class="note">
+            <h5 class="title">Notes One</h5>
+            <p class="note-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam molestiae labore consectetur quos quasi odio ducimus eius.
+            </p>
+            <div class="btn-date">
+                <div class="btns">
+                    <button class="btn">D</button>
+                    <button class="btn">E</button>
+                </div>
+                <p class="date">Mar 21, 2024</p>
+            </div>
+        </div>
+        <div class="note">
+            <h5 class="title">Notes One</h5>
+            <p class="note-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing  eius.
+            </p>
+            <div class="btn-date">
+                <div class="btns">
+                    <button class="btn">D</button>
+                    <button class="btn">E</button>
+                </div>
+                <p class="date">Mar 21, 2024</p>
+            </div>
+        </div>
+        <div class="note">
+            <h5 class="title">Notes One</h5>
+            <p class="note-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor tenetur, reiciendis consequatur iste, accusamus culpa alias, doloribus porro ut impedit incidunt distinctio ad suscipit in voluptates asperiores dignissimos? Error cumque, vel repellat temporibus quasi eligendi consequatur fugit quas porro facilis minima fuga similique, commodi consectetur. Eos laborum labore explicabo omnis.
+            </p>
+            <div class="btn-date">
+                <div class="btns">
+                    <button class="btn">D</button>
+                    <button class="btn">E</button>
+                </div>
+                <p class="date">Mar 21, 2024</p>
+            </div>
+        </div>
+        <div class="note">
+            <h5 class="title">Notes One</h5>
+            <p class="note-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore nostrum quos harum at pariatur totam fugit voluptate officia voluptatum possimus!
+            </p>
+            <div class="btn-date">
+                <div class="btns">
+                    <button class="btn">D</button>
+                    <button class="btn">E</button>
+                </div>
+                <p class="date">Mar 21, 2024</p>
+            </div>
+        </div>
+        <div class="note">
+            <h5 class="title">Notes One</h5>
+            <p class="note-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam molestiae labore consectetur quos quasi odio ducimus eius.
+            </p>
+            <div class="btn-date">
+                <div class="btns">
+                    <button class="btn">D</button>
+                    <button class="btn">E</button>
+                </div>
+                <p class="date">Mar 21, 2024</p>
+            </div>
+        </div>
+    </div> -->
+    
+
+    <section class="section section-headings">
+        <div class="container">
+            <div class="section-top">
+                <h1 class="h1">Your All Notes</h1>
+                <button class="btn-secondary" data-model-toggler data-add-task>Add Note +</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section-notes">
+        <div class="container">
+            <div class="all-notes">
+                <!-- <div class="note">
+                    <h5 class="title">Notes One Notes One Notes One</h5>
+                    <p class="note-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam molestiae labore consectetur quos quasi odio ducimus eius.
+                    </p>
+                    <div class="btn-date">
+                        <div class="btns">
+                            <button class="btn">
+                                <ion-icon name="create-outline" class="create-outline"></ion-icon>
+                            </button>
+                            <button class="btn">
+                                <ion-icon name="trash-outline" class="trash-outline"></ion-icon>
+                            </button>
+                        </div>
+                        <p class="date omni">Monday, 21 Mar 2024 at 08:20</p>
+                    </div>
+                </div>
+                <div class="note">
+                    <h5 class="title">Notes One</h5>
+                    <p class="note-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing  eius.
+                    </p>
+                    <div class="btn-date">
+                        <div class="btns">
+                            <button class="btn">
+                                <ion-icon name="create-outline" class="create-outline"></ion-icon>
+                            </button>
+                            <button class="btn">
+                                <ion-icon name="trash-outline" class="trash-outline"></ion-icon>
+                            </button>
+                        </div>
+                        <p class="date">Mar 21, 2024</p>
+                    </div>
+                </div>
+                <div class="note">
+                    <h5 class="title">Notes One</h5>
+                    <p class="note-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor tenetur, reiciendis consequatur iste, accusamus culpa alias, doloribus porro ut impedit incidunt distinctio ad suscipit in voluptates asperiores dignissimos? Error cumque, vel repellat temporibus quasi eligendi consequatur fugit quas porro facilis minima fuga similique, commodi consectetur. Eos laborum labore explicabo omnis.
+                    </p>
+                    <div class="btn-date">
+                        <div class="btns">
+                            <button class="btn">D</button>
+                            <button class="btn">E</button>
+                        </div>
+                        <p class="date">Mar 21, 2024</p>
+                    </div>
+                </div>
+                <div class="note">
+                    <h5 class="title">Notes One</h5>
+                    <p class="note-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore nostrum quos harum at pariatur totam fugit voluptate officia voluptatum possimus!
+                    </p>
+                    <div class="btn-date">
+                        <div class="btns">
+                            <button class="btn">D</button>
+                            <button class="btn">E</button>
+                        </div>
+                        <p class="date">Mar 21, 2024</p>
+                    </div>
+                </div>
+                <div class="note">
+                    <h5 class="title">Notes One</h5>
+                    <p class="note-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam molestiae labore consectetur quos quasi odio ducimus eius.
+                    </p>
+                    <div class="btn-date">
+                        <div class="btns">
+                            <button class="btn">D</button>
+                            <button class="btn">E</button>
+                        </div>
+                        <p class="date">Mar 21, 2024</p>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+
+    <div class="container model-window" id="m-toggle" data-model-window>
+        <div class="model">
+            <ion-icon name="close-circle-outline" class="cross" data-model-toggler></ion-icon>
+            <form action="#" class="model-form">
+                <div class="input-div">
+                    <label for="title">Title</label>
+                    <input type="text" id="title" name="title" class="title">
+                </div>
+                <div class="input-div">
+                    <label for="message">Note</label>
+                    <textarea name="message" id="message"></textarea>
+                </div>
+                <input type="hidden" name="hiddenField" id="hiddenField" value="hiddenValue">
+                <button class="btn-secondary btn-model">Add Note</button>
+            </form>
+            <!-- <div class="content">
+                <h2 class="h2">Biology</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur, fuga?</p>
+            </div> -->
+        </div>
+
+        <div class="overlay" data-model-toggler data-note-toggler data-overlay></div>
+    </div>
+
+    <div class="container model-window model-note" data-note-model>
+        <div class="model">
+            <ion-icon name="close-circle-outline" class="cross" data-note-toggler></ion-icon>
+            <div class="content">
+                <h2 class="h2">Biology</h2>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur, fuga? Lorem100
+                </p>
+            </div>
+        </div>
+
+        <div class="overlay" data-note-toggler data-note-overlay data-overlay></div>
+    </div>
+
+    
+    
+    <script src="./script.js"></script>
+    
+    <!--============ Ionicons ==============-->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
