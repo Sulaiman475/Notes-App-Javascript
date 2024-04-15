@@ -1,7 +1,5 @@
 # Notes-App-Javascript
 
-Simple notes app with CRUD operations in javascript.
+Simple notes app with CRUD operations in javascript. And deployed using netlify.
 
-<a href="https://sulaiman-notes.netlify.app/">Preview</a>
-
-[![Netlify Status](https://app.netlify.com/sites/sulaiman-notes/deploys)
+<a href="https://sulaiman-notes.netlify.app/">Live Preview</a>
